@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(./fonts/Gilroy-Bold.woff2);
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(./fonts/Gilroy-Medium.woff2);
+}
+
+@font-face {
+    font-family: Gilroy-Semibold;
+    src: url(./fonts/Gilroy-Semibold.woff2);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    background: #FFFFFF;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.link-novigation {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.novigation {
+    width: 533px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Gilroy-Semibold;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.color-novigation {
+    color: #000000;
+}
+
+.color-home {
+    color: #F25822;
+}
+
+main {
+    margin-top: 42px;
+    margin-bottom: 162px;
+}
+
+.content {
+    display: flex;
+    gap: 41px;
+}
+
+h1 {
+    margin-bottom: 17px;
+    width: 522px;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+
+p {
+    width: 466px;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+}
+
+.button {
+    margin-top: 37px;
+    display: flex;
+    align-items: baseline;
+    gap: 72px;
+
+}
+
+.btn {
+    padding: 15px 35px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.link-video {
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+}
+
+
+.logos {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    display: flex;
+    justify-content: space-between;
+}
